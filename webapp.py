@@ -1,5 +1,4 @@
 __version__ = '0.1.0'
-#importação das bibliotecas
 import streamlit as st
 import yfinance as yf
 from datetime import date
@@ -8,10 +7,9 @@ from fbprophet import Prophet
 from fbprophet.plot import plot_plotly, plot_components_plotly
 from plotly import graph_objs as go
 
-
 #define a data de início e fim
-DATA_INICIO = '2017-01-01'
-DATA_FIM = date.today().strftime('%Y-%m-%d')
+data_inicio = '2017-01-01'
+data_fim = date.today().strftime('%Y-%m-%d')
 
 #cabeçalho
 st.title('Análise de Ações')
@@ -20,7 +18,7 @@ n_dias = st.slider('Quantidade de dias de previsão' , 30,365)
 
 #coleta dos dados no .csv
 def pegar_dados_acoes():
-    path = 'C:/Users/bruno/Downloads/acoes.csv'
+    path = 'acoes.csv'
     return pd.read_csv(path, delimiter=';')
 
 df = pegar_dados_acoes()
@@ -34,7 +32,7 @@ acao_escolida = acao_escolida + '.SA'
 
 @st.cache
 def pegar_valores_online(sigla_acao):
-    df = yf.download(sigla_acao, DATA_INICIO, DATA_FIM)
+    df = yf.download(sigla_acao, data_inicio, data_fim)
     df.reset_index(inplace=True)
     return df
 
