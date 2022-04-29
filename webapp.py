@@ -49,7 +49,7 @@ fig = go.Figure(data=[go.Candlestick(x=df_valores['Date'],open=df_valores['Open'
 #fig.add_trace(go.Candlestick(x=df_valores['Date'],y=df_valores['Open'],name='Preço de Abertura',line_color='red'))
 st.plotly_chart(fig)
 
-""""#define as variáveis de treino
+#define as variáveis de treino
 df_treino = df_valores[['Date','Close']]
 df_treino = df_treino.rename(columns={'Date':'ds', 'Close': 'y'})
 
@@ -70,4 +70,4 @@ st.plotly_chart(grafico1)
 
 #gráfico2
 grafico2 = plot_components_plotly(modelo, previsao)
-st.plotly_chart(grafico2)"""
+st.plotly_chart(grafico2)
