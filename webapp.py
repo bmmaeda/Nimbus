@@ -85,9 +85,9 @@ previsao['ds'] = pd.to_datetime(previsao['ds']).dt.date
 st.write(previsao[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail(n_dias))
 
 st.download_button(
-    label='Download',
+    label='Download previsão.csv',
     data=previsao.to_csv(index=False, header=True),
-    file_name='previsao.csv'
+    file_name='previsao' + nome_acao_escolhida + '.csv'
 )
 
 #gráfico 1
