@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="pexels-gustavo-juliette.jpg" width=1280>
+  <img src="https://raw.githubusercontent.com/bmmaeda/Stratus/master/stratus_0.1.2.png" width=1280>
 </p>
 
 <h1 align="center">
