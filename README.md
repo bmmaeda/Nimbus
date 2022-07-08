@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  Stratus - Previsor de valor de ações usando Streamlit + Facebook Prophet. - Em construção<br/><br/>
+  Stratus - Previsor de valor de ações - Em construção<br/><br/>
 </h1>
 
 <br/>
