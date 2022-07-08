@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  Stratus - Previsor de valor de ações - Em construção<br/><br/>
+Em construção<br/><br/>
 </h1>
 
 <br/>
