@@ -33,9 +33,9 @@ Se você gostou do projeto ou tem alguma sugestão acesse o [site](https://brasi
 
 ## Softwares, Linguagens e Bibliotecas
 
-Streamlit
-Python
-Facebook Prophet
+- Streamlit
+- Python
+- Facebook Prophet
 
 <br/>
 
