@@ -31,9 +31,11 @@ O Status é um webapp que utiliza das base de dados das ações listadas na bols
 Se você gostou do projeto ou tem alguma sugestão acesse o [site](https://brasiot.com.br) mande um e-mail para bruno@dastratus.com.br.
 <br/>
 
-## Softwares e Bibliotecas
+## Softwares, Linguagens e Bibliotecas
 
 Streamlit
+Python
+Facebook Prophet
 
 <br/>
 
