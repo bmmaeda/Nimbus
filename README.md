@@ -11,7 +11,7 @@ Em construção<br/><br/>
 ## Sumário
 
 - [Conceito](#conceito)
-- [Sobre o projeto](#sobre-o-projeto)
+- [Acesso](#acesso)
 - [Softwares](#softwares-e-bibliotecas)
 - [Outro projetos](#conheça-meus-outros-projetos)
 
@@ -36,6 +36,7 @@ Se você gostou do projeto ou tem alguma sugestão acesse o [site](https://brasi
 Streamlit
 
 <br/>
+
 ## Conheça meus outros projetos
 
 Visite o meu [site](https://dastratus.com.br/) para saber mais sobre mim ou sobre outros projetos.
